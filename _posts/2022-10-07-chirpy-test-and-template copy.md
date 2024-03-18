@@ -1,6 +1,6 @@
 ---
 title: Chirpy测试&模板
-date: 2023-10-07 12:00:00 +0800
+date: 2022-10-07 12:00:00 +0800
 # categories: [Blogging, Demo]
 # tags: [typography]
 math: true
