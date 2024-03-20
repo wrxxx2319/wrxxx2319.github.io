@@ -114,13 +114,13 @@ MySQL允许使用字符串或数字直接转换为日期类型，可以直接赋
 select 
   sec_to_time(sum(time_to_sec(time_col))) 
 from 
-  tbl_name;
+  mytable;
 
 -- 聚合日期
 select 
   from_dats(SUM(to_days(date_col))) 
 from 
-  tbl_name;
+  mytable;
 ```
 
 + 后续补充中...
