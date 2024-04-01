@@ -44,7 +44,7 @@ mermaid: true
 ```sql
 select 
   *
-  ,row_number(number) over (order by number) as row_number
+  ,row_number() over (order by number) as row_number
 from
   test
 ```
@@ -71,7 +71,7 @@ from
 ```sql
 select 
   *
-  ,rank(number) over (order by number) as rank
+  ,rank() over (order by number) as rank
 from
   test
 ```
@@ -96,7 +96,7 @@ from
 ```sql
 select 
   *
-  ,dense_rank(number) over (order by number) as dense_rank
+  ,dense_rank() over (order by number) as dense_rank
 from
   test
 ```
